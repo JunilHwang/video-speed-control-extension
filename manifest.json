@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "versionString",
+  "default_locale": "ko",
+  "description": "현재 사이트에 보여지는 모든 동영상의 동영상 배속을 조정할 수 있습니다.",
+  "browser_action": {
+    "default_title": "동영생 배속",
+    "default_popup": "popup.html"
+  },
+  "permission": ["activeTab"]
+}
